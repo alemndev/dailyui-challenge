@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credit Card Checkout</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-50 m-5">
+  <main class="w-full flex justify-center">
+    <div class="container gap-4 flex flex-col items-center w-full bg-white rounded shadow p-10">
+      <!-- Card preview -->
+      <div class="gap-6 bg-pink-300 shadow-xl shadow-pink-200 flex flex-col p-6 rounded-xl relative overflow-hidden w-max">
+        <header>
+          <span class="text-lg text-white font-bold">meow bank</span>
+          <img class="w-24 absolute rotate-[-30deg] top-2 -right-0" src="https://www.pikpng.com/pngl/b/256-2569485_cat-kawaii-pixel-pixelart-pixel-art-kawaii-png.png">
+        </header>
+
+        <div>
+          <img class="w-14 h-10 grayscale" src="https://png.pngtree.com/png-vector/20231223/ourmid/pngtree-credit-card-chip-shopping-png-image_11198229.png">
+        </div>
+
+        <footer class="flex justify-between gap-20 items-center">
+          <div class="flex flex-col">
+            <span class="text-white text-lg font-semibold">5412 7512 3412 3456</span>
+            <span class="text-white text-base font-medium">JOHN SPIDERMAN DOE</span>
+            <span class="text-white text-sm font-medium">12/29</span>
+          </div>
+
+          <img class="w-20" src="https://fraguru.com/mdimg/dizajneri/o.4571.jpg"/>
+        </footer>
+      </div>
+
+      <section>
+        <div class="container flex flex-col gap-4 mb-6">
+          <h2 class="text-5xl font-bold text-pink-300">Be part of meow club</h2>
+        </div>
+
+        <div class="flex flex-col gap-6">
+
+          <div class="relative flex flex-col">
+            <label class="flex flex-col gap-1 text-pink-300 text-lg font-medium absolute bg-white left-3 -top-3 px-3">
+              Card number
+            </label>
+
+            <input class="text-pink-400 text-base p-4 shadow-sm outline-none placeholder:text-pink-300 border-8 border-pink-200 rounded" type="text" placeholder="5412 7512 3412 3456">
+          </div>
+
+          <div class="relative flex flex-col">
+            <label class="flex flex-col gap-1 text-pink-300 text-lg font-medium absolute bg-white left-3 -top-3 px-3">
+              Name
+            </label>
+
+            <input class="text-pink-400 text-base p-4 shadow-sm outline-none placeholder:text-pink-300 border-8 border-pink-200 rounded" type="text" placeholder="John Spiderman Doe">
+          </div>
+
+          <div class="relative flex flex-col">
+            <label class="flex flex-col gap-1 text-pink-300 text-lg font-medium absolute bg-white left-3 -top-3 px-3">
+              Expedition
+            </label>
+
+            <input class="text-pink-400 text-base p-4 shadow-sm outline-none placeholder:text-pink-300 border-8 border-pink-200 rounded" type="text" placeholder="12/29">
+          </div>
+
+          <button class="bg-pink-300 text-lg hover:bg-pink-300/80 hover:cursor-pointer p-4 text-white font-bold rounded">Subscribe now</button>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
