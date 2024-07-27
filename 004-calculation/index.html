@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculation</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <main class="flex justify-center">
+    <!-- Calculator -->
+    <div class="mt-10 flex w-full flex-col p-5 bg-rose-300 max-w-96 rounded relative">
+      <!-- Result -->
+      <header class="bg-rose-100 p-5 rounded text-rose-300 text-right relative">
+        <img class="absolute h-16 -left-10 -top-10 -rotate-45" src="https://stickermaker.s3.eu-west-1.amazonaws.com/storage/uploads/sticker-pack/cute-teddy-bear-emoji-1/sticker_2.webp?4d2b1405fba7f334b2d417473b5ed240&d=200x200s"/>
+        <span id="result" class="text-5xl">0</span>
+      </header>
+
+      <!-- Buttons -->
+      <div class="flex flex-col w-full gap-1 mt-4">
+        <!-- Row 1 -->
+        <div class="flex gap-1">
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">7</button>
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">8</button>
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">9</button>
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">/</button>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="flex gap-1">
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">4</button>
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">5</button>
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">6</button>
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">x</button>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="flex gap-1">
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">1</button>
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">2</button>
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">3</button>
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">-</button>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="flex gap-1">
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">0</button>
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">C</button>
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">=</button>
+          <button class="bg-rose-100 hover:bg-rose-200 w-full px-4 py-7 rounded text-rose-400 font-semibold text-2xl">+</button>
+        </div>
+      </div>
+
+      <img class="absolute h-16 -top-6 -right-6 rotate-45" src="https://cdn.dribbble.com/userupload/6429314/file/original-bc8e49037ba3ae5f3467ab58d4737112.png">
+      <img class="absolute h-16 -bottom-8 -left-6 rotate-90" src="https://cdn.dribbble.com/userupload/6429287/file/original-bf62f678b5581e93696d1bb8c623b711.png">
+      <img class="absolute h-16 -bottom-6 -right-6 rotate-45" src="https://static.vecteezy.com/system/resources/previews/033/076/544/original/cute-pastel-lollipop-candy-stick-doodle-png.png">
+    </div>
+  </main>
+</body>
+</html>
